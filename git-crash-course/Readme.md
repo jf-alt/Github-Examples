@@ -65,7 +65,22 @@ git checkout dev
 
 ## Remotes
 
+You can cadd remote but often you will just add remote via upstream when adding a branch
+
+```sh
+git remote add ...
+git branch -u origin new-feature
+```
+
 ## Stashing
+
+```sh
+git stash
+git stash list
+git stash save my-name
+git stash apply
+git statsh pop
+```
 
 ## Merging
 
@@ -103,7 +118,7 @@ Showing the contents of the gitconfig file
 git config --list
 ```
 
-When yoou first install Git on a machine, need to set up name and email
+When you first install Git on a machine, need to set up name and email
 
 ```sh
 git config --global user.name "John Doe"
