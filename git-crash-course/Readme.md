@@ -45,6 +45,22 @@ git config --global core.editor emacs
 
 ## Branches
 
+List of branches
+
+```sh
+git branch
+```
+
+Create a new branch
+```sh 
+git branch branch-name (dev)
+```
+
+Checkout the branch
+```sh
+git checkout dev
+```
+
 ## Remotes
 
 ## Stashing
